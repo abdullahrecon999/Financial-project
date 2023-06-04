@@ -119,7 +119,9 @@ function App() {
 			}}>
 			<Layout className='flex flex-col w-screen'>
 				<Header className='main-header'>
-					<GithubFilled style={{ fontSize: 25 }} className={`${(!isDarkMode) ? "hover:text-blue-500 text-white" : "hover:text-gray-800 text-gray-500"} cursor-pointer transition-all hover:scale-110`} />
+					<GithubFilled onClick={() => {
+						window.open('https://github.com/abdullahrecon999/Financial-project', '_blank');
+					}} style={{ fontSize: 25 }} className={`${(!isDarkMode) ? "hover:text-blue-500 text-white" : "hover:text-gray-800 text-gray-500"} cursor-pointer transition-all hover:scale-110`} />
 					<div>
 						<Switch
 							checked={isDarkMode}
