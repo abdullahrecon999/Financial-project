@@ -1,4 +1,5 @@
 # Auto Journal
+[![pages-build-deployment](https://github.com/abdullahrecon999/Financial-project/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/abdullahrecon999/Financial-project/actions/workflows/pages/pages-build-deployment)
 A Automatic journaling app for managing general journals, ledger entries and generating a trial balance.
 
 ## Description
