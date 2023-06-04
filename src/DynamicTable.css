@@ -1,0 +1,15 @@
+.buttons {
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .add-row-btn {
+    margin-right: 8px;
+  }
+  
+  .generate-btn {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
